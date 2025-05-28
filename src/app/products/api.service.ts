@@ -1,9 +1,7 @@
 import { Injectable, ResourceRef, resource } from '@angular/core';
 import { Product } from './products.model';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class ApiService {
   private readonly productsUrl = 'https://dummyjson.com/c/e01a-4468-43e6-bc22';
 
